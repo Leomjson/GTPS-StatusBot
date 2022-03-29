@@ -4,6 +4,9 @@
 const TOKEN = 'bot token';
 const CHANNELID = 'channel ID';
 //
+// 
+// npm i discord.js child_process line-reader randomcolor readline
+//
 //
 //
 const { Client, Intents, MessageEmbed, Permissions } = require('discord.js');
@@ -19,7 +22,6 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-console.clear();
     start();
     function start()
     {
@@ -39,10 +41,10 @@ console.clear();
     }
     client.on('ready', () => {
         const Guilds = client.guilds.cache.map(guild => guild.id);
-        client.user.setActivity(`In ${client.guilds.cache.size} Servers`, 
+        client.user.setActivity('github.com/leomjson', 
         {
             type: "STREAMING",
-            url: "https://www.twitch.tv/leo"
+            url: "https://www.twitch.tv/leomjson"
         });
 
 //
