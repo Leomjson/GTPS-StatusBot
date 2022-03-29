@@ -3,4 +3,6 @@ I did not steal any credit, this is gucktube repo just editted so it supports Di
 
 # How Setup
 Download Recommended version of node.js, download Visual studio code as well.
-Then run install.bat. Good Luck with the rest!
+open visual studio code and open a new terminal, type in npm init, once you finish following the intructions type in  npm install randomcolor readline discord.js line-reader  then inside of index.js edit:
+const TOKEN = 'Put the token here';
+const CHANNELID = 'Put your channel id here';
